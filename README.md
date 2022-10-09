@@ -2,9 +2,13 @@
 Smart Fashion Recommender Application
 
 Team Leader - ELAVARASAN E
+
 Team Member 1 - JAKITH AHAMED A
+
 Team Member 2 - LOGHA PRIYA A
+
 Team Member 3 - SAMRAJ S
+
 Team Member 4 - SANMATHI M
 
 THIS IS THE MAIN FOLDER FOR THE PROJECT...SMART FASHION RECOMMENDER APPLICATION
