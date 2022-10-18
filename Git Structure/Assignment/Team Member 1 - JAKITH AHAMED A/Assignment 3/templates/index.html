@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Displaying five images in IBM cloud Storage</title>
+    <link rel="stylesheet" href="https://ass3css.s3.jp-tok.cloud-object-storage.appdomain.cloud/style.css">
+</head>
+<body>
+<h1>DISPLAYING FIVE IMAGES IN IBM CLOUD STORAGE</h1>
+<div class="row">
+  <div class="column">
+    <img src="https://jakith.s3.jp-tok.cloud-object-storage.appdomain.cloud/image1.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://jakith.s3.jp-tok.cloud-object-storage.appdomain.cloud/image2.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://jakith.s3.jp-tok.cloud-object-storage.appdomain.cloud/image3.jpg" style="width:100%">
+  </div>
+    <div class="column">
+    <img src="https://jakith.s3.jp-tok.cloud-object-storage.appdomain.cloud/image4.jpg" style="width:100%">
+  </div>
+    <div class="column">
+    <img src="https://jakith.s3.jp-tok.cloud-object-storage.appdomain.cloud/image5.jpg" style="width:100%">
+  </div>
+</div>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "264a189b-beb5-4dc9-afdd-8cba479017d4", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "fbd18a30-19c3-4a71-a412-3108c9aa7d43", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html>
