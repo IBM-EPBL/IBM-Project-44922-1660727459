@@ -1,6 +1,8 @@
 # IBM-Project-44922-1660727459
 Smart Fashion Recommender Application
 
+Link : https://github.com/IBM-EPBL/IBM-Project-44922-1660727459
+
 Team Id: PNT2022TMID31802
 
 *Team Leader - ELAVARASAN E
